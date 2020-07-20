@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="list">
+        <ul>
+            <li>About</li>
+            <li>Work</li>
+            <li>Contact</li>
+            
+        </ul>
+    </div>
+    <nav class="topnav">
+        <a href="#about">About</a>
+        <a href="#Work">Work</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    </header>
+<div id="home" class="homepage">
+    <hr>
+    <hr>
+   <br> <h1>Nina BonakdarSakhi</h1></br>
+    </div>
+    <div id="projec" class="project">
+        <ul>
+           <li>creating a form</li> 
+           <li>
+               <p><br>This project is done for assesment</br>
+                I am going to create a register form for this project</p>
+            
+           </li>
+           <li><img src="https://images.unsplash.com/photo-1589621317313-38f7fbf010cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60 width=100px height=50px"></li>
+        </ul>
+        <div id="register" class="registerdiv" >
+            <h1>Register Form</h1>
+            <form>
+            <div>
+                <div class="row">
+                   <div class="col-25">
+                   <label for="first">First Name : </label>
+                   </div>
+                   <div class="col-75">
+                   <input  name="first" id="first" type="text" placeholder="John" required>
+                   </div> 
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-25">
+                    <label for="last">Last Name : </label>
+                    </div>
+                    <div class="col-75">
+                    <input name="last" id="last" type="text" placeholder="Smith" required>
+                    </div>
+                </div>
+                <br>
+        
+             <div>
+                <label for="male">male</label>
+                <input name="gender" id="male" type="radio" value="male">
+                <label for="female">female</label>
+                <input name="gender" id="female" type="radio" value="female">
+                <label for="other">other</label>
+                <input name="gender" id="other" type="radio" value="other"> 
+            </div>
+            <br>
+        
+            <div>
+                <label >
+                    Email:
+                    <input name="email" type="email" placeholder="your email" required>
+                </label>
+            </div>
+                <br>
+                <div>
+                <label >
+                    Password:
+                    <input name="password" type="password" pattern=".{4,8}" required title=" password must be between 4 to 8 characters" required> 
+                </label>
+                </div>
+                <br>
+                
+            </div>
+            <br>
+        
+            <div>
+                <label >
+                    Birthday:
+                    <select name="Month" >
+                        <option>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option> 
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>Jul</option>
+                        <option>Aug</option>
+                        <option>Sep</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+                    <select  name="Day">
+                        <option>Days</option>
+                        <option >Monday</option>
+                        <option>Tuesday</option>
+                        <option>wednesday</option>
+                        <option> Thursday></option>
+                        <option> Friday></option>
+                    </select>
+                    <select name="Year" >
+                        <option>Year</option>
+                        <option>2018</option>
+                        <option> 2019</option>
+                        <option>2020</option>
+        
+                    </select>
+                </label>
+                </div>
+                <br>
+               
+               
+            <div>
+                <label for="agreed">I agree with the terms and conditions:</label>
+                <input id="agreed" name= "agreed" type="checkbox">
+                <input  type="submit">
+        
+            </div>
+            
+            
+             
+         </form>
+          </div> 
+          <div class="contactinformation">
+            <a href="index1.html"><button class="btn"><i class="contactinfo">Contact me </i></button></a>
+        </div>
+</body>
+</html>
